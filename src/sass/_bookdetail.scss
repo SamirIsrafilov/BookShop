@@ -1,0 +1,66 @@
+#book_details {
+    background-color: #ff1616;
+    padding: 29px;
+   font-family: 'Roboto' ,sans-serif;
+
+   img{
+    width:282px;
+    // max-height:427px;
+   }
+
+    #book_title {
+        font-family: 'Playfair Display', sans-serif !important;
+        color:#fff;
+    }
+    #book_price{
+        font-size:32px;
+        color:#fff;
+    }
+    #addtocart_btn{
+        background-color: #fff;
+        color: #000;
+        font-weight: 500;
+        height:50px;
+        width:145px;
+       
+        padding:15px 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none !important;
+        transition:.4s;
+        &:hover{
+            background-color: #ff1616;
+            color:#fff;
+            box-shadow: 0px 0px 50px -3px #fff;
+        }
+    }
+    #share_btn{
+        border:1px solid #fff;
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        color: #fff;
+        transition:.4s;
+        &:hover{
+            background-color: #fff;
+            color: #ff1616;
+        }
+    }
+
+    #social_share{
+        display: flex;
+        justify-content: space-evenly;
+        button{
+            width:50px;
+            height:50px;
+            border:1px solid #ff1616;
+            border-radius:50%;
+            transition:.4s;
+           &:hover{
+            background-color: #ff1616;
+            color: #fff;
+           }
+        }
+    }
+}

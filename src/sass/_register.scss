@@ -1,0 +1,70 @@
+.sign_form {
+    max-width: 700px !important;
+    box-shadow: 0px 0px 50px -3px #0d0c0d33;
+    font-family: 'Roboto', sans-serif;
+
+    .sign_head {
+        h5 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #301a22;
+            font-weight: 300;
+        }
+    }
+
+    form {
+        label {
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        input {
+            height: 50px;
+            padding-left: 20px;
+            font-size: 14px;
+        }
+
+        #form_checked {
+            input {
+                height: 20px;
+
+                &:checked {
+                    background-color: #f11616;
+                    border:1px solid #f11616;
+                }
+            }
+            label{
+                cursor: pointer;
+            }
+        }
+
+
+        #forgot_password{
+            text-decoration: none;
+            color: #f11616;
+            font-size: 14px;
+        }
+
+        .form_bottom{
+            p{
+                color: #301a22;
+                font-weight: 300;
+                #signup{
+                    text-decoration: none;
+                    color: #f11616;
+                }
+            }
+
+            button{
+                background-color: #f11616;
+                color: #fff;
+                padding: 10px 43px;
+                height:60px;
+                border: none;
+            }
+        }
+    }
+}

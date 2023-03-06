@@ -1,0 +1,75 @@
+.category_hero {
+    background-image: url('../img/h2_hero1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+    h1 {
+        font-family: 'Playfair Display', sans-serif !important;
+        font-size: 35px;
+
+    }
+}
+
+
+#filter {
+
+
+    #search_filter {
+        width:100%;
+        height: 50px;
+        border-radius: 0;
+        cursor: auto;
+        border:1px solid #ff1616;
+        &:focus{
+            outline: none;
+        }
+    }
+
+    font-family: 'Roboto' sans-serif;
+
+    h6 {
+        font-family: 'Playfair Display', sans-serif !important;
+    }
+
+    input {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    label {
+        cursor: pointer;
+    }
+
+
+    #price_filter {
+        input {
+            background-color: transparent !important;
+            width: 270px;
+            height: 5px !important;
+        }
+    }
+
+
+    select {
+        option {
+            background-color: transparent !important;
+
+            input {
+                padding: 10px !important;
+            }
+        }
+    }
+
+    :checked {
+        background-color: #ff1616;
+        border: none;
+    }
+}

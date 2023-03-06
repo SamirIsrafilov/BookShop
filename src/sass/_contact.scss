@@ -1,0 +1,68 @@
+.contact_hero {
+    background-image: url('../img/h2_hero2.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+    h1 {
+        font-family: 'Playfair Display', sans-serif !important;
+        font-size: 35px;
+
+    }
+}
+
+.contact_form {
+    font-family: 'Playfair Display', sans-serif !important;
+
+    h5 {
+        font-size: 27px;
+        font-weight:600;
+    }
+
+    form{
+        textarea{
+            font-size:14px;
+        }
+
+        input{
+            height:48px;
+            padding: 6px 12px 6px 18px;
+            font-size:14px;
+        }
+
+        button{
+            border:1px solid #ff1616 !important;
+            padding:18px 44px;
+            color: #ff1616;
+            font-size:14px;
+            transition:.5s;
+            &:hover{
+                color: #fff;
+                background-color: #ff1616;
+               
+            
+            }
+        }
+    }
+
+    #contact_info{
+        .media_icon{
+            color: #8f9195;
+            font-size: 30px;
+        }
+        h3{
+            font-size:16px;
+            font-family: 'Playfair Display', sans-serif !important;
+            color:#2a2a2a;
+        }
+        p{
+            color: #8a8a8a;
+            font-size:16px;
+            font-family: 'Roboto' sans-serif;
+        }
+    }
+}

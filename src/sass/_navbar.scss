@@ -1,0 +1,36 @@
+#navbar {
+    background-color: #fef4f4;
+    font-family: 'Roboto', sans-serif;
+  
+    .page_list {
+        .page_title {
+            padding: 15px 17px;
+            font-weight: 500;
+            background-color: transparent;
+
+            &:hover {
+                color: #f11616;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    #navbar {
+        background-color: #4c4c4c !important;
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+
+        .page_title {
+            color: #fff;
+        }
+
+        .sub_page_list {
+            background-color: transparent !important;
+            margin-left: 20px !important;
+
+        }
+    }
+
+}

@@ -1,0 +1,270 @@
+/* Banner Slider Start */
+
+.slider {
+  height: 78vh;
+  font-family: 'Playfair Display', sans-serif;
+
+  #slide1 {
+
+    background-image: url('../img/h1_hero1.jpg.webp') !important;
+    max-height: 100vh !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+  }
+
+  #slide2 {
+
+    background-image: url('../img/h1_hero2.jpg.webp') !important;
+    max-height: 100vh !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #slide3 {
+
+    background-image: url('../img/h1_hero3.jpg.webp') !important;
+    max-height: 100vh !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #fff !important;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Banner Slider End */
+
+
+/* Best Selling Books Ever Start */
+
+.best_selling {
+  background-color: #fef4f4;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Products Cart Start */
+#product_cart {
+  text-decoration: none;
+  color: #1A1A1A;
+  transition:.5s;
+
+  &:hover{
+      box-shadow: 0px 0px 50px -21px #f11616;
+  }
+  #book_name {
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover {
+      color: #f11616;
+    }
+  }
+
+  #book_rating {
+    color: #ff5700;
+  }
+
+  #book_price {
+    color: #f11616;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+/* Products Cart End */
+
+/* Card Slide Start */
+#card_slide {
+  .swiper-button-prev {
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .swiper-button-next {
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #f11616;
+  }
+}
+
+/* Card Slide End */
+
+
+/* Best Selling Books Ever End */
+
+
+
+/* Featured This Week Start */
+
+.featured {
+  font-family: 'Roboto', sans-serif;
+
+  .featured_slide {
+    background-color: #f11616;
+
+    .swiper-button-prev {
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .swiper-button-next {
+      font-weight: 800;
+      color: #fff;
+    }
+  }
+}
+
+/* Featured This Week End */
+
+
+/*Latest Published items Start*/
+.latest_published {
+
+  ul {
+    li {
+      margin-right: 10px;
+      margin-top: 10px;
+
+      button {
+        border: 1px solid #454e6d !important;
+        color: #454e6d;
+      }
+    }
+  }
+
+  #browse_btn {
+    color: #f11616;
+    border: 1px solid #f11616 !important;
+    transition: .5s;
+
+    &:hover {
+      background-color: #f11616 !important;
+      color: #fff;
+    }
+  }
+}
+
+/*Latest Published items End*/
+
+#history_phipino {
+  background-image: url('../img/wants-bg1.jpg.webp');
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 40px 50px;
+  display: flex;
+  align-items: center;
+  height: 188px;
+
+
+  button {
+    background-color: #f11616;
+    height: 45px;
+    padding: 22px 32px !important;
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: .5s;
+
+    &:hover {
+      background-color: #c30d0d;
+    }
+
+  }
+}
+
+#wilma_mumduya {
+  background-image: url('../img/wants-bg2.jpg.webp');
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 40px 50px;
+  height: 188px;
+  display: flex;
+  align-items: center;
+
+  button {
+    background-color: #f11616;
+    height: 45px;
+    padding: 22px 32px !important;
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: .5s;
+
+    &:hover {
+      background-color: #c30d0d;
+    }
+
+  }
+}
+
+
+
+#newsletter {
+  font-family: 'Roboto',sans-serif;
+  color: #fff;
+  background-image: url('../img/section-bg1.jpg.webp');
+
+  h1{
+    font-family: 'Playfair Display', sans-serif !important;
+  }
+  p {
+    color: #9498a7;
+  }
+
+  button {
+    color: #fff;
+    background-color: #f11616;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+
+  .featured {
+    .featured_slide {
+      .swiper-button-prev {
+        display: none !important;
+      }
+
+      .swiper-button-next {
+        display: none !important;
+      }
+    }
+  }
+
+
+
+  /*Latest Published items Start*/
+  .latest_published {
+
+    ul {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      // flex-direction: column !important;
+
+    }
+
+  }
+
+  /*Latest Published items End*/
+
+
+
+
+
+
+}

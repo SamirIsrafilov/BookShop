@@ -1,0 +1,65 @@
+header{
+    #header_logo{
+       img{
+        height: 37px !important;
+       }
+    }
+    #search_box{
+        width:41%;
+        padding:10px 20px;
+        #search_input{
+          width:100%;
+          font-family: 'Roboto', sans-serif;
+
+          &:focus{
+                outline: none;   
+          }
+          
+        }
+        #search_icon{
+            font-size:22px;
+            color:#ff1616;
+            cursor: pointer;
+        }
+    }
+
+    #header_btn{
+        padding:13px 34px !important;
+        font-family: 'Roboto', sans-serif;
+        background-color: #ff1616;
+        color: #fff;
+        transition: .5s;
+        &:hover{
+            background-color: #af1212;
+        }
+    }
+
+    #user{
+       ul{
+        font-family: 'Roboto', sans-serif !important;
+        letter-spacing:3px;
+        li{
+            &:hover{
+                background-color: #ff1616;
+                color: #fff;
+              
+            }
+        }
+       }
+    }
+}
+
+@media screen and (max-width:576px) {
+    header{
+        display: flex;
+        flex-direction: column;
+       
+       
+        #search_box{
+            width: 100%;
+            margin-top:15px;
+            margin-bottom:15px;
+        }
+    }
+    
+}

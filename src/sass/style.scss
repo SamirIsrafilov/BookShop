@@ -1,0 +1,29 @@
+@import 'header';
+@import 'navbar';
+@import 'home';
+@import 'categories';
+@import 'about';
+@import 'blog';
+@import 'contact';
+@import 'register';
+@import 'bookdetail';
+@import 'scroll';
+
+
+
+@import 'footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+
+
+/* Custom Scroll Bar */
+
+html::-webkit-scrollbar{
+    width:0.5rem;
+    background:transparent;
+}
+html::-webkit-scrollbar-thumb{
+  background:#f11616;
+}
